@@ -1,7 +1,7 @@
 # Data_Visualization (*Work still in progress*)
 
-# (Dataset Exploration Title)
-## by AjeethaaL
+# Explore the Loan Data from Prosper
+## by Ajeethaa
 
 
 ## Dataset
@@ -17,3 +17,6 @@
 ## Key Insights for Presentation
 
 > Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+
+### References:
+> https://www.prosper.com/invest#sec-3
