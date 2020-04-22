@@ -19,6 +19,6 @@
 > Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
 
 ### References:
-> https://www.prosper.com/invest#sec-3
-> https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html
-> https://en.wikipedia.org/wiki/Income_in_the_United_States
+> https://www.prosper.com/invest#sec-3 <br />
+> https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html<br />
+> https://en.wikipedia.org/wiki/Income_in_the_United_States<br />
