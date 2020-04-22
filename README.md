@@ -16,7 +16,9 @@
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+> There are 4 separate columns for employed individuals. It is not specified what the 'Employed' column details. Full-time, self-employed and part-time are also 'employed'. The assumption here is that the 'Not available' and 'Other' are borrowers who are students or simply borrowers who didn't wish to divulge further information. <br />
+> The raw data was examined in Excel to understand this column better. There were missing data and when it was indicated 'NA' in the employment status column actually had job titles in the occupation column. I will proceed to amalgamate all statuses deemed employed as one. This will increase the number of employed. As for the 'others' their classification will be based on their stated income. The OTHERS that have zero income will be classifed as Unemployed. There is a limitation to this assumption as welfare payment receivers are deemed as unemployed unless stated otherwise. <br />
+> As confirmed in the chart above, there are missing values or data in some of the columns. To find out how they are depicted on Excel, the original data was examined. As confirm, there are some missing values in these columns. Will employ 'fillna' method and in the Employment Status column, replaced NaN with 'No_Status'. <br />
 
 ### References:
 > https://www.prosper.com/invest#sec-3 <br />
