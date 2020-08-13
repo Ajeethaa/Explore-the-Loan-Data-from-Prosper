@@ -1,8 +1,4 @@
-# Data_Visualization
-
 # Explore the Loan Data from Prosper
-## by Ajeethaa
-
 
 ## Dataset
 
