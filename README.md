@@ -1,4 +1,6 @@
-# [Explore the Loan Data from Prosper](https://github.com/Ajeethaa/Explore-the-Loan-Data-from-Prosper/blob/master/Presentation_Slides.html)
+# Explore the Loan Data from Prosper
+
+Check out the site of the [project](https://github.com/Ajeethaa/Explore-the-Loan-Data-from-Prosper/blob/master/Presentation_Slides.html)
 
 ## Dataset
 
