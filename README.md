@@ -18,7 +18,7 @@
 > As confirmed in the chart above, there are missing values or data in some of the columns. To find out how they are depicted on Excel, the original data was examined. As confirm, there are some missing values in these columns. Will employ 'fillna' method and in the Employment Status column, replaced NaN with 'No_Status'. 
 
 ## Link to the project
-> More on this project, please click [here.](https://ajeethaa.github.io/Exploration-of-Loan-Data-from-Prosper.html)
+> More on this project, please click [here.](https://ajeethaa.github.io/Exploration%20of%20Loan%20Data%20from%20Prosper.html)
 
 ### References:
 > https://www.prosper.com/invest#sec-3 <br />
