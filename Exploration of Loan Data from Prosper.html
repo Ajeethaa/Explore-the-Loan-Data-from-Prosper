@@ -14259,11 +14259,11 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Exploration-of-Loan-Data-from-Prosper">Exploration of Loan Data from Prosper<a class="anchor-link" href="#Exploration-of-Loan-Data-from-Prosper">&#182;</a></h1><h2 id="My-First-Data-Analysis-Project"><em>My First Data Analysis Project</em><a class="anchor-link" href="#My-First-Data-Analysis-Project">&#182;</a></h2><h2 id="Dataset">Dataset<a class="anchor-link" href="#Dataset">&#182;</a></h2><blockquote><p>The loan data is from a peer-to-peer lending company called Prosper Marketplace which is based in San Francisco, USA. Not only can individual borrow money but also invest in personal loans. This project examines the data and connected variables about borrowers.</p>
+<h1 id="Exploration-of-Loan-Data-from-Prosper"><strong>Exploration of Loan Data from Prosper</strong><a class="anchor-link" href="#Exploration-of-Loan-Data-from-Prosper">&#182;</a></h1><h2 id="My-First-Data-Analysis-Project"><em>My First Data Analysis Project</em><a class="anchor-link" href="#My-First-Data-Analysis-Project">&#182;</a></h2><h2 id="Dataset"><strong>Dataset</strong><a class="anchor-link" href="#Dataset">&#182;</a></h2><blockquote><p>The loan data is from a peer-to-peer lending company called Prosper Marketplace which is based in San Francisco, USA. Not only can individual borrow money but also invest in personal loans. This project examines the data and connected variables about borrowers.</p>
 </blockquote>
-<h2 id="Summary-of-Findings">Summary of Findings<a class="anchor-link" href="#Summary-of-Findings">&#182;</a></h2><blockquote><p>Thorough this project, I have investigated to find out how the unemployed borrowers fare, not only in securing a loan but in getting a fair deal in terms of loan terms and the interest rate. I have also looked into the number of overdue payments and compared these data with their monthly income and monthly loan payment. In conclusion, inspite the difference in the population size between the groups, one can observe similiarties between them as well.</p>
+<h2 id="Summary-of-Findings"><strong>Summary of Findings</strong><a class="anchor-link" href="#Summary-of-Findings">&#182;</a></h2><blockquote><p>Thorough this project, I have investigated to find out how the unemployed borrowers fare, not only in securing a loan but in getting a fair deal in terms of loan terms and the interest rate. I have also looked into the number of overdue payments and compared these data with their monthly income and monthly loan payment. In conclusion, inspite the difference in the population size between the groups, one can observe similiarties between them as well.</p>
 </blockquote>
-<h2 id="Key-Insights-for-Presentation">Key Insights for Presentation<a class="anchor-link" href="#Key-Insights-for-Presentation">&#182;</a></h2><blockquote><p>There are 4 separate columns for employed individuals. It is not specified what the 'Employed' column details. Full-time, self-employed and part-time are also 'employed'. The assumption here is that the 'Not available' and 'Other' are borrowers who are students or simply borrowers who didn't wish to divulge further information.</p>
+<h2 id="Key-Insights-for-Presentation"><strong>Key Insights for Presentation</strong><a class="anchor-link" href="#Key-Insights-for-Presentation">&#182;</a></h2><blockquote><p>There are 4 separate columns for employed individuals. It is not specified what the 'Employed' column details. Full-time, self-employed and part-time are also 'employed'. The assumption here is that the 'Not available' and 'Other' are borrowers who are students or simply borrowers who didn't wish to divulge further information.</p>
 <p>The raw data was examined in Excel to understand this column better. There were missing data and when it was indicated 'NA' in the employment status column actually had job titles in the occupation column. I will proceed to amalgamate all statuses deemed employed as one. This will increase the number of employed. As for the 'others' their classification will be based on their stated income. The OTHERS that have zero income will be classifed as Unemployed. There is a limitation to this assumption as welfare payment receivers are deemed as unemployed unless stated otherwise.</p>
 <p>As confirmed in the chart above, there are missing values or data in some of the columns. To find out how they are depicted on Excel, the original data was examined. As confirm, there are some missing values in these columns. Will employ 'fillna' method and in the Employment Status column, replaced NaN with 'No_Status'.</p>
 </blockquote>
@@ -14272,7 +14272,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Preliminary-Wrangling">Preliminary Wrangling<a class="anchor-link" href="#Preliminary-Wrangling">&#182;</a></h2>
+<h2 id="Preliminary-Wrangling"><strong>Preliminary Wrangling</strong><a class="anchor-link" href="#Preliminary-Wrangling">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
@@ -14818,9 +14818,9 @@ memory usage: 8.3+ MB
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Data-structure-of-the-dataset">Data structure of the dataset<a class="anchor-link" href="#Data-structure-of-the-dataset">&#182;</a></h3><blockquote><p>The dataset has a combination of qualititative (nominal) such as the 'Employment Status' and quantitative (continuous) structures. It has 113937 observations i.e. borrowers.</p>
+<h3 id="Data-structure-of-the-dataset"><strong>Data structure of the dataset</strong><a class="anchor-link" href="#Data-structure-of-the-dataset">&#182;</a></h3><blockquote><p>The dataset has a combination of qualititative (nominal) such as the 'Employment Status' and quantitative (continuous) structures. It has 113937 observations i.e. borrowers.</p>
 </blockquote>
-<h3 id="The-main-features-of-interest">The main features of interest<a class="anchor-link" href="#The-main-features-of-interest">&#182;</a></h3><blockquote><p>The qualititative data will be broken into two; unemployed and employed. I would like to find out the differences between these two groups in terms on how they fare when placed in the qualititative variables. I am interested to know the amount of delinquencies and to compare that to their monthly income, and also to find out the sort of interest rate and loan term these two groups receive.</p>
+<h3 id="The-main-features-of-interest"><strong>The main features of interest</strong><a class="anchor-link" href="#The-main-features-of-interest">&#182;</a></h3><blockquote><p>The qualititative data will be broken into two; unemployed and employed. I would like to find out the differences between these two groups in terms on how they fare when placed in the qualititative variables. I am interested to know the amount of delinquencies and to compare that to their monthly income, and also to find out the sort of interest rate and loan term these two groups receive.</p>
 <p>First, I will need to separate the data into two new variables, taking into consideration the missing data and data untidiness. I will use the monthly income to separate the others into their appropriate catergories. And I suspect the lowest earners will have the most delinquents and highest number of loans. I suspect the interest rate and term will be based on the loan amount.</p>
 </blockquote>
 
@@ -14828,7 +14828,7 @@ memory usage: 8.3+ MB
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Univariate-Exploration">Univariate Exploration<a class="anchor-link" href="#Univariate-Exploration">&#182;</a></h2>
+<h2 id="Univariate-Exploration"><strong>Univariate Exploration</strong><a class="anchor-link" href="#Univariate-Exploration">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -15542,7 +15542,7 @@ Plot 2 shows a better representation than the other two plots.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Distribution-of-the-variables">Distribution of the variables<a class="anchor-link" href="#Distribution-of-the-variables">&#182;</a></h3><blockquote><p>Initially plotted the montly salary without applying any logarithmic calculation to the values, and found the plot unreadable. After applying the log calculation, its distribution became clearer. The plot for unemployed is skewed to the left. This dataset was made on the assumption that all zero earners as unemployed.</p>
+<h3 id="Distribution-of-the-variables"><strong>Distribution of the variables</strong><a class="anchor-link" href="#Distribution-of-the-variables">&#182;</a></h3><blockquote><p>Initially plotted the montly salary without applying any logarithmic calculation to the values, and found the plot unreadable. After applying the log calculation, its distribution became clearer. The plot for unemployed is skewed to the left. This dataset was made on the assumption that all zero earners as unemployed.</p>
 <p>To plot the number of on-time payments, I adjusted not only the bins value but also the xticks to see the distribution clearer.</p>
 <p>The missing data = filled null value with 0 and replaced the NaN in the EmployedStatus column to No_Status.</p>
 <p>Tidiness = There were 4 separate columns for employed individuals. It is not specified what the 'Employed' column details. Full-time, self-employed and part-time are also 'employed'. So created two new variables; 'employed' and 'unemployed'</p>
@@ -15552,7 +15552,7 @@ Plot 2 shows a better representation than the other two plots.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Bivariate-Exploration">Bivariate Exploration<a class="anchor-link" href="#Bivariate-Exploration">&#182;</a></h2>
+<h2 id="Bivariate-Exploration"><strong>Bivariate Exploration</strong><a class="anchor-link" href="#Bivariate-Exploration">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -15914,7 +15914,7 @@ Plot 2 shows a better representation than the other two plots.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="The-relationships-in-the-dataset">The relationships in the dataset<a class="anchor-link" href="#The-relationships-in-the-dataset">&#182;</a></h3><blockquote><p>Naturally the population size in plot A is bigger but I was expecting higher number of delinquents amongst the unemployed. As with the employed data, unemployed borrowers have been paying their loan on time and have fewer delinquents.</p>
+<h3 id="The-relationships-in-the-dataset"><strong>The relationships in the dataset</strong><a class="anchor-link" href="#The-relationships-in-the-dataset">&#182;</a></h3><blockquote><p>Naturally the population size in plot A is bigger but I was expecting higher number of delinquents amongst the unemployed. As with the employed data, unemployed borrowers have been paying their loan on time and have fewer delinquents.</p>
 <p>It will interesting to find out how the company decides its criteria for a successful loan application. I noticed that borrowers who had stated no income received quite a substantial amount of loan.</p>
 <p>Both groups received a rather similiar interest rate on their loan but what surprised was this: the 2nd highest rate was about 0.35 for the unemployed but it was about 0.15 for the employed. I would imagine that the low income earners got the lowest interest rate but I suspect there are other criteria involved.</p>
 </blockquote>
@@ -15923,7 +15923,7 @@ Plot 2 shows a better representation than the other two plots.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Multivariate-Exploration">Multivariate Exploration<a class="anchor-link" href="#Multivariate-Exploration">&#182;</a></h2>
+<h2 id="Multivariate-Exploration"><strong>Multivariate Exploration</strong><a class="anchor-link" href="#Multivariate-Exploration">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -16110,7 +16110,7 @@ Plot 2 shows a better representation than the other two plots.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h3><blockquote><p>Amongst the unemployed, most have 36 months to pay off their loan and majority of them have under 2 loans with Prosper and a monthly loan payment under 500 with the original loan amount under 10,000.</p>
+<h3 id="Conclusion"><strong>Conclusion</strong><a class="anchor-link" href="#Conclusion">&#182;</a></h3><blockquote><p>Amongst the unemployed, most have 36 months to pay off their loan and majority of them have under 2 loans with Prosper and a monthly loan payment under 500 with the original loan amount under 10,000.</p>
 <p>I am surprised to see the amount of overdue payments not high as I envisaged it. The interesting part would be the interest rate bestowed on the loan for the unemployed, which will require another project to investigate!</p>
 </blockquote>
 
@@ -16118,7 +16118,7 @@ Plot 2 shows a better representation than the other two plots.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="References:">References:<a class="anchor-link" href="#References:">&#182;</a></h3><blockquote><p><a href="https://www.prosper.com/invest#sec-3">https://www.prosper.com/invest#sec-3</a> <br />
+<h3 id="References:"><strong>References:</strong><a class="anchor-link" href="#References:">&#182;</a></h3><blockquote><p><a href="https://www.prosper.com/invest#sec-3">https://www.prosper.com/invest#sec-3</a> <br />
 <a href="https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html">https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html</a><br />
 <a href="https://en.wikipedia.org/wiki/Income_in_the_United_States">https://en.wikipedia.org/wiki/Income_in_the_United_States</a><br /></p>
 </blockquote>
