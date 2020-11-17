@@ -10,7 +10,7 @@
 
 > Thorough this project, I have investigated to find out how the unemployed borrowers fare, not only in securing a loan but in getting a fair deal in terms of loan terms and the interest rate. I have also looked into the number of overdue payments and compared these data with their monthly income and monthly loan payment. 
 
->In conclusion, inspite the difference in the population size between the groups, one can observe similiarties between them as well.
+> In conclusion, inspite the difference in the population size between the groups, one can observe similiarties between them as well.
 
 
 ## Key Insights for Presentation
