@@ -22,6 +22,6 @@
 > More on this project, please click [here.](https://ajeethaa.github.io/Exploration%20of%20Loan%20Data%20from%20Prosper.html)
 
 # References:
-> https://www.prosper.com/invest#sec-3 <br />
-> https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html<br />
-> https://en.wikipedia.org/wiki/Income_in_the_United_States<br />
+- https://www.prosper.com/invest#sec-3 <br />
+- https://www.listendata.com/2019/07/how-to-filter-pandas-dataframe.html<br />
+- https://en.wikipedia.org/wiki/Income_in_the_United_States<br />
